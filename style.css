@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        background-color:  #db4dff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+
+        &:active{
+            transform: scaleY(1.1);
+            color: #db4dff;
+            background-color: #fff;
+        }
+    }
+}
